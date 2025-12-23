@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+}
+.main-content{
+    flex: 0 1 75%;
+    text-align: center;
+}
+.sidebar{
+    flex: 0 1 25%;
+    background: #808080;
+   text-align: center;
+}
+
+#editor-panel {
+    flex: 1;
+}
+
+    #editor-panel h2 {
+        margin-top: 0;
+    }
+
+#editor {
+    width: 800px;
+    height: 600px;
+    border-radius: 8px;
+    border: 2px dashed #555;
+    position: relative;
+    background: #808080;
+    overflow: hidden;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    position: absolute;
+    border: 2px solid #000;
+}
+.triangle {
+    width: 100px;
+    height: 100px;
+    background: #ffd800;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    border: 2px solid #000;
+}
+.plank {
+    width: 20px;
+    height: 300px;
+    background: #7d4a12;
+    position: absolute;
+    border: 2px solid #000;
+}
+.enemy {
+    width: 100px;
+    height: 100px;
+    background: #00000000;
+    background-image: url("./sprites/pig.png");
+    background-size: cover;
+    position: absolute;
+}
+.catapult {
+    width: 100px;
+    height: 100px;
+    background: #00000000;
+    background-image: url("./sprites/slingshot.png");
+    background-size: cover;
+    position: absolute;
+}
