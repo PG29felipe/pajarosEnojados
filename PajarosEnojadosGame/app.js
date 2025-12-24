@@ -564,7 +564,7 @@
             }
 
             ctx.closePath();
-            ctx.fillStyle = "#795548";
+            ctx.fillStyle = "#4D27F5";
             ctx.fill();
             ctx.restore();
         });
@@ -589,7 +589,7 @@
             }
 
             ctx.closePath();
-            ctx.fillStyle = "#795548";
+            ctx.fillStyle = "#EDD70E";
             ctx.fill();
             ctx.restore();
         });
@@ -613,7 +613,7 @@
             }
 
             ctx.closePath();
-            ctx.fillStyle = "#795548";
+            ctx.fillStyle = "#FF9354";
             ctx.fill();
             ctx.restore();
         });
